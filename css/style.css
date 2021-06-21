@@ -103,5 +103,40 @@ main .content .table table tbody tr:nth-child(odd) {
 background-color: #fff;
 }
 
+footer{
+    padding: 10px;
+}
+
+footer .articles {
+    color: #989898;
+}
+
+footer .articles h4 {
+    color: #989898;
+}
+
+footer .articles .article {
+    width: 310px;
+    height: 210px;
+    margin: 10px 0px;
+    background-color: #989898;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer .articles .article h3{
+    padding: 10px;
+}
+
+footer .articles .a-img-1 {
+    background-image: url('../images/monitor.jpg');
+    
+}
+footer .articles .a-img-2 {
+    background-image: url('../images/graph.jpg');
+}
+
 
 

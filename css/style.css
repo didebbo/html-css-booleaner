@@ -55,10 +55,6 @@ main .titolo .desc .author .date {
     font-size: 0.8rem;
 }
 
-main .header-gallery {
-    
-}
-
 main .header-gallery .gallery {
     text-align: center;
 }
@@ -77,6 +73,35 @@ main .content {
     margin: 10px;
 }
 
-main .content .list ul {
-    
+main .content .table {
+    text-align: center;
+    margin: auto;
 }
+
+main .content .table table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+main .content .table table thead {
+    background-color: #20A9E5;
+    color: #fff;
+}
+main .content .table table th {
+    width: 30%;
+}
+
+main .content .table table tbody{
+font-size: 0.8rem;
+}
+
+main .content .table table tbody tr:nth-child(even) {
+    background-color: #B1E5F2;
+}
+
+main .content .table table tbody tr:nth-child(odd) {
+background-color: #fff;
+}
+
+
+

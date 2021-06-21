@@ -1,5 +1,7 @@
 body {
     background-color: beige;
+    margin: 0px;
+    padding: 0px;
 }
 
 ul {
@@ -10,10 +12,9 @@ ul {
     background-color: yellow;
 }
 
-.container{
-    width: 90%;
-    margin: auto;
-    background-color: #fff;
+header {
+    margin: 0px;
+    padding: 0px;
 }
 
 header .banner{
@@ -35,12 +36,20 @@ header .banner .cover{
 header .banner .logo {
     position: absolute;
     width: 200px;
-    bottom: 0px;
-    left: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
 }
 
 main .titolo {
-    margin: 10px;
+    padding: 10px;
 }
 
 main .titolo .desc {

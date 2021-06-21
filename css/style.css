@@ -2,6 +2,10 @@ body {
     background-color: beige;
 }
 
+ul {
+    padding-left: 10px;
+}
+
 .txt-bg-yellow{
     background-color: yellow;
 }
@@ -71,4 +75,8 @@ main .header-gallery .desc {
 
 main .content {
     margin: 10px;
+}
+
+main .content .list ul {
+    
 }

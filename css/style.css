@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    /* background-color: beige; */
     margin: 0px;
     padding: 0px;
 }
@@ -10,6 +10,13 @@ ul {
 
 .txt-bg-yellow{
     background-color: yellow;
+}
+
+.container{
+    /* width: 90%;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px; */
 }
 
 header .banner{
@@ -29,18 +36,20 @@ header .banner .cover{
 }
 
 header .banner .logo {
-    position: absolute;
-    width: 200px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.container{
+    position: relative;
     width: 90%;
     margin: auto;
-    background-color: #fff;
-    margin-bottom: 20px;
+}
+
+
+header .banner .logo img{
+    height: 50px;
+    margin-top: 100px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
 }
 
 main .titolo {
@@ -110,7 +119,8 @@ main .content .table table tbody tr:nth-child(odd) {
 }
 
 footer{
-    padding: 10px;
+    width: 90%;
+    margin: auto;
 }
 
 footer .articles h4 {
